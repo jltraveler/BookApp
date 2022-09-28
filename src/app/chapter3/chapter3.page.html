@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>Chapter 3</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <p> This is chapter 3. It is about the third chapter. I purposfully did not use Lorem Ipsum to demonstrate that the pages are different.</p>
+    <img src="assets/icon/imgpg3.png" height="100px">
+    <ion-button [routerDirection]="'root'" [routerLink]="['/chapter2']">
+        <ion-icon slot="start"></ion-icon>
+        Chapter 2
+    </ion-button>
+    3
+    <ion-button [routerDirection]="'root'" [routerLink]="['/chapter4']">
+        Chapter 4
+        <ion-icon slot="end"></ion-icon>
+    </ion-button>
+</ion-content>
